@@ -6,4 +6,14 @@
 
 
 使用说明：
+1.python login.py(登录知乎网站)
+2.python get.py（获取需要的回答文章）
+![image](https://github.com/jwzh222/python-/raw/master/image_folder/Image2.png)
 
+
+代码说明：
+1.登录：login.py 登录知乎，利用@egrcc的方式：https://github.com/egrcc/zhihu-python。 request.Session方式，验证码处理采用人工输入的方式
+2.获取：执行get.py，根据程序提示按顺序输入问题url和作者ID,程序则自动将此回答爬下来写到本地txt文件。
+
+待完成：
+对于有图片的文章，目前还未完成把图片一并下载，与文字排版输出到本地文件
